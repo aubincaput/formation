@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/CSS" href="reset.css" />
+    <style>
+        h1 {
+            font-weight: bold;
+            font-size: 2em;
+        }
+
+        nav {
+            margin: 10px auto 40px auto;
+            position: sticky;
+            top: 0px;
+        }
+
+        nav li {
+            float: left;
+            width: 25%;
+            text-align: center;
+
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: black;
+            width: 100%;
+            display: block;
+            padding: 10px 10px 10px 10px;
+            border-bottom: 2px solid transparent;
+
+        }
+
+        nav li a:hover {
+            border-bottom: 2px solid orange;
+            color: orange;
+        }
+
+        .conteneur {
+            clear: both;
+            padding-top: 40px;
+        }
+    </style>
+</head>
+​
+
+<body>
+        <h1>Menu déroulant HTML et CSS</h1>
+        <nav>
+          <ul>
+            <li class="deroulant"><a href="#">HTML 5 & CSS 3</a>
+              <ul class="sous">
+                <li><a href="#">Introduction</a></li>
+                <li><a href="#">Les positions</a></li>
+                <li><a href="#">Les animations</a></li>
+              </ul>
+            </li>
+            <li class="deroulant"><a href="#">JavaScript</a>
+              <ul class="sous">
+                <li><a href="#">les variables</a></li>
+                <li><a href="#">les boucles</a></li>
+                <li><a href="#">les fonctions</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">A propos</a></li>
+          </ul>
+        </nav>
+        <div class="conteneur">
+          <p>Vous me voyez toujours ???</p>
+        </div>
+</body>
+​
+
+</html>

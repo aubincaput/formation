@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend> Authentification </legend>
+            <label> login </label>
+            <input type="text" maxlength="20" placeholder="saisir votre login">
+
+            <label> Mot de passe </label>
+            <input type="text" maxlength="20" placeholder="saisir votre mot de passe"> <br>
+
+            <input type="submit" value="envoyer">
+            <input type="reset" value="effacer">
+
+        </fieldset>
+
+    </form>
+    <br><br><br><br>
+    <form>
+        <fieldset>
+            <legend>formulaire d'inscription </legend>
+            <label>Nom </label>
+            <input type="text"  name =" nom" maxlength="20" placeholder="saisir votre Nom" pattern ="a-z"> <br><br>
+            <label>Prénom </label>
+            <input type="text" maxlength="20" placeholder="saisir votre Prénom"><br><br>
+            <label>Email </label>
+            <input type="text" maxlength="20" placeholder="saisir votre Email"><br><br>
+    </form>
+    <form>
+        <label> Sexe </label>
+        <input type="radio"  name="Sexe" value="M">
+        <label for="masculin"> masculin </label>
+
+        <input type="radio"  name="Sexe" value="F">
+        <label for="féminin"> féminin </label>
+<br><br>
+    <label for="fichier">Photo</label>
+        <input type ="file" id =fichier  name ="fichier" accept ="image/png, image/jpg">
+<br> <br>
+        <label for ="pays"> Pays <label>
+            <select id ="pays">
+                <option value =" France"> France </option>
+                <option value =" Espagne"> Espagne</option>
+                <option value =" Portugal"> Portugal</option>
+                <option value =" Allemagne">Allemagne </option>
+                <option value =" Royaume-Uni"> Royaume-Uni</option>
+            </select>
+            <br> <br>
+            <td> <select multiple ="multiple" size =5 name = "langage" > </td>
+
+        <option> Java</option>
+        <option> C++</option>
+    </select>
+
+
+
+    
+    </form>
+
+</body>
+
+</html>

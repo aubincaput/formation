@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    div {
+        width:500px;
+        height :100px;
+        background-color: grey;
+        border : 3px solid blue;
+    }
+    
+    #a1 {
+        animation-name : couleur;
+        animation-duration : 6s;
+    }
+
+        #a2 {
+            animation-name :bougedela;
+            animation-duration : 10s;
+        }
+    
+    @keyframes couleur {
+
+        from { 
+            background-color: orange;
+        }
+        25% {
+            background-color :red;
+        }
+        60% {
+            background-color: aqua;
+        }
+        75 % {
+            background-color : green;
+        }
+        to {
+            background-color: chartreuse;
+
+        }
+    } 
+
+        @keyframes bougedela {
+            from {
+                transform :translate(400px)
+            }
+            25% {
+                transform:rotate(75deg)
+
+            }
+            50% {
+                transform :translateY(200px)
+            }
+            75% {
+                transform :translate(-100px,-150px);
+            }
+            to {
+                transform:rotate(60deg)
+            }
+        }
+    
+    </style>
+</head>
+<body>
+        <div id="a1"> transition 1 </div>
+        <div id="a2"> transition 2 </div>
+
+</body>
+</html>

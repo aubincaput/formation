@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+
+    <form method="POST" action ="" id ="formPersonne">
+
+        <label> nom </label>
+        <input name="nom" type="text" placeholder ="nom"/> <br><br><br>
+        <label> prenom </label>
+
+        <input name="prenom" type="text" />
+        </label> <br>
+        <input type="submit" value="envoyer" />
+        <label> âge </label>
+        <input name ="age" type="number" min ="0" max="18">
+        </form>
+</body>
+
+</html>

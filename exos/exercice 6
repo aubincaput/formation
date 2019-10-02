@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1" width="750">
+        <tr align ="center">
+            <td colspan="4"> 1 </td>
+        </tr>
+
+        <tr align="center">
+            <td rowspan="3" align="center"> 2 </td>
+            <td> 3 </td>
+            <td> 4 </td>
+            <td rowspan="3" align="center"> 5 </td>
+
+        </tr>
+        <tr align="center">
+
+            <td> 6</td>
+            <td> 7</td>
+
+        </tr>
+        <tr>
+            <td colspan="2" align="center"> 8</td>
+        </tr>
+
+
+
+
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+       
+            <table border="1" cellspacing ="0" cellespadding ="0" width="750">
+    <thead>
+             <tr>
+            <th rowspan ="2"> équipes </th> 
+       <th colspan = "6" align ="center">Janvier</th> 
+       <th rowspan ="2" > </th>
+    </tr>
+    <tr>
+        <td>Lundi</td>
+        <td>Mardi</td>
+        <td colspan ="2">Mercredi</td>
+        <td>Jeudi</td>
+        <td>Vendredi</td>
+        
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <td>Equipe 1</td>
+            <td colspan ="4">Tache 1</td>
+            <td colspan ="2">Tache 2</td>
+            <td rowspan = "2">Semaine 1</td>
+        </tr>
+        <tr>
+            <td>Equipe 2</td>
+            <td colspan ="3">Tache 1</td>
+            <td colspan ="3"> Tache 2 </td>
+        </tr>
+        
+        
+    </tr>
+</table>
+
+
+
+</body>
+
+</html>
