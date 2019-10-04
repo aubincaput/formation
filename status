@@ -1,0 +1,71 @@
+[33mcommit de66654f32e1f83c8ab5015b3e16bfe1779ebd03[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: aubincaput <56071351+aubincaput@users.noreply.github.com>
+Date:   Thu Oct 3 23:55:16 2019 +0200
+
+    Add files via upload
+
+[33mcommit 4c31da663e6885def06425d5917651039dfe319b[m
+Author: aubincaput <56071351+aubincaput@users.noreply.github.com>
+Date:   Thu Oct 3 23:41:21 2019 +0200
+
+    Add files via upload
+
+[33mcommit da83533d59e64b0f49404875673bfd773c056b83[m
+Author: aubincaput <56071351+aubincaput@users.noreply.github.com>
+Date:   Thu Oct 3 22:55:58 2019 +0200
+
+    Add files via upload
+
+[33mcommit 7722827d68c9ded28eb9fe1254f5475ae4965735[m
+Author: EliseLarramendy <larramendy.elise@gamil.com>
+Date:   Thu Oct 3 22:47:37 2019 +0200
+
+    mise à jour de la page vins.html avec un tableau
+
+[33mcommit e6a58c1c073450feb26fb3eb07442568360e58b5[m
+Author: EliseLarramendy <larramendy.elise@gamil.com>
+Date:   Thu Oct 3 20:22:18 2019 +0200
+
+    style ajout du h4, et balises pour villageSauternes
+
+[33mcommit 4cd957a7e6dd6ed166a98f524ae31d93360c2bd0[m
+Author: unknown <larramendy.elise@gamil.com>
+Date:   Thu Oct 3 19:46:52 2019 +0200
+
+    lien style css de l'index
+
+[33mcommit 18d9a98e8274e46dd0cb619cd054f1096dc2ad9d[m
+Author: EliseLarramendy <larramendy.elise@gmail.com>
+Date:   Thu Oct 3 17:47:21 2019 +0200
+
+    cepage HTML OK, ajout des menus de navigation sur toutes les pages
+
+[33mcommit 8e5300a18db918c046d42c41cf1fc53e41b564f5[m
+Author: unknown <aubin.caput@hotmail.fr>
+Date:   Thu Oct 3 17:11:06 2019 +0200
+
+    modification grappe raisin
+
+[33mcommit 76b16a08eecfd8a758e998dda9cc86cd6c7f56e4[m
+Author: EliseLarramendy <larramendy.elise@gmail.com>
+Date:   Thu Oct 3 16:43:11 2019 +0200
+
+    début css général avec menu, html formulaire OK, structure des pages en cours
+
+[33mcommit ac8dd80d805287d04229a65ee40ba1d5133a9a25[m
+Author: EliseLarramendy <larramendy.elise@gmail.com>
+Date:   Thu Oct 3 14:10:29 2019 +0200
+
+    ajout des feuilles de style css commun et reset. contenu avant application du css
+
+[33mcommit 197ba61f964681e72bb20fc7077f9129205dd889[m
+Author: EliseLarramendy <larramendy.elise@gmail.com>
+Date:   Thu Oct 3 11:47:30 2019 +0200
+
+    formulaire phase 1 en html, correction des liens du menu
+
+[33mcommit 2fee6bdf718ea95a39e86226d958a799847e5bdb[m
+Author: EliseLarramendy <larramendy.elise@gmail.com>
+Date:   Thu Oct 3 09:21:49 2019 +0200
+
+    premier commit

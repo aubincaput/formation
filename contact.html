@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Château Dudon - , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta author="Elise et Aubin">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/styleCommun.css">
+
+
+    <title>Château Dudon - Contact et visites</title>
+    <style>
+        p{
+            text-align: justify;
+            margin-left: 65px;
+
+        }
+        h1 {
+            text-align: center;
+        }
+        #p2 {
+            text-align: center;
+        }
+        input{
+            display: block;
+            
+        }
+        h3{
+            margin-left: 50px;
+        }
+         .demande{
+            width : 300px;
+            height : 200px;
+            border : 1px solid black;
+            
+        }
+        .boutondemerde {
+            display :block;
+        }
+        #evelyne {
+            position: absolute;
+            top : 500px;
+            left : 850px;
+            width : 400px;
+            height : 400px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Contacts</h1>
+
+    </header>
+    <aside>
+        <nav id="menuNav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li>Le sauternais</li>
+                <ul>
+                    <li><a href="villageSauternes.html">Le village de Sauternes</a></li>
+                    <li><a href="situation.html">Notre situation</a></li>
+                </ul>
+                <li><a href="histoire.html">Notre histoire</a> </li>
+                <li>Culture et cépages</li>
+                <ul>
+                    <li><a href="cepages.html">Les cépages du Sauternes</a></li>
+                    <li><a href="terroir.html">Notre terroir</a></li>
+                    <li><a href="vignoble.html">Notre vignoble</a></li>
+                    <li><a href="culture.html">La culture Bio</a></li>
+                    <li><a href="recolte.html">La récolte</a></li>
+
+                </ul>
+                <li><a href="vins.html">Nos vins</a>
+                    <ul>
+                        <li><a href="dudon.html">Château Dudon et ses millésimes</a></li>
+                        <li><a href="gallien.html">"Gallien de Chateau Dudon et ses millésimes</a></li>
+                    </ul>
+                </li>
+                <li><a href="commande.html">Bon de commande</a></li>
+                <li><a href="gite.html">Notre gîte Bacchus</a></li>
+                <li><a href="contact.html">Contact et visites</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+
+    <section>
+        
+        <h2>visites</h2>
+        <p>Les heures de visite :
+
+        Nous pouvons vous accueillir tous les jours
+        de 8:00 à 12 :00 et de 14 :00 à 18 :00, vous pouvez réserver en cliquant <a href = "https://www.ruedesvignerons.com/fr/domaine/160/chateau-dudon">ici</a>.
+            <br>
+
+
+        Prenez rendez-vous si vous souhaitez visiter le week-end,
+
+
+
+
+
+        Tel : 05 56 27 29 38
+
+
+
+        Mobile : 06 81 73 44 01.</p>
+
+
+
+        <p id="p2">Merci de votre visite sur notre site
+        et à bientôt au Château...</p>
+            
+        <img src="img/evelyne.jpg" id ="evelyne" /> 
+    
+            
+
+        <h3>Formulaire de contact mail</h3>
+        
+        <form id="contact" method="post">
+            <fieldset id="commandePersonne">
+                <legend>Vos informations personnelles</legend>
+                
+                <label>Nom</label>
+                <input type="text" name="nom" placeholder="Bacchus" /><br />
+                <label>Prénom</label>
+                <input type="text" name="prenom" placeholder="Dyonisos" /><br />
+                <label>Mail</label>
+                <input type="email" name="email" placeholder="dyonisos.bacchus@sauternes.fr" /><br />
+                <label>Téléphone</label>
+                <input type="tel" name="téléphone" placeholder="0101010101" /><br />
+                <label>Portable</label>
+                <input type="tel" name="portable" placeholder="0607060706" /><br />
+                <label>Votre demande</label>
+                <input type ="comment" name ="commentaire" placeholder="écrivez votre message..." class ="demande">
+                <br> <div class = "boutondemerde">
+                <input type ="button" name="bouton" placeholder ="envoyer" value ="envoyer"/>
+                <input type ="button" name ="bouton" value ="annuler"/>
+            
+            </section>
+    
+
+</body>
+
+</html>
